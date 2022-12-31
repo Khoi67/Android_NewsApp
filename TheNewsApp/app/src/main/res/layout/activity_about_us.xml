@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.AboutUs">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/dr_sugiyama"
+        android:text="The News"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        style="@style/TextAppearance.Material3.BodyMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Version 1.0.2"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextAppearance.Material3.BodyMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="32dp"
+            android:text="\nTác giả:\n\nĐỗ Nguyên Khôi - 51900515\n Vân Đại Kiệt - 51900517\n              Đào Xuân Trường - 51900456
+            \n\n Mô tả:\n\n Ứng dụng đã được phát triển và hoàn thiện tại \ntrường đại học Tôn Đức Thắng với sự dẫn dắt \ncủa thầy Doãn Xuân Thành và thầy Trần Đại Nhân. \n\n Liên hệ: \n\nĐiện Thoại: +84 0867405143\n Email: Thenews@gmaul.com \nFaceBook: TheNews " />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

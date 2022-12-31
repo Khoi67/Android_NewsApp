@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_categories">
+        <item>The thao</item>
+        <item>Doi song</item>
+    </string-array>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:title="Đăng nhập" />
+        <item
+            android:id="@+id/nav_admin"
+            android:title="Kiểm duyệt" />
+        <item
+            android:id="@+id/nav_trend"
+            android:title="Tin nổi bật" />
+        <item
+            android:id="@+id/nav_foryou"
+            android:title="Dành cho bạn" />
+        <item
+            android:id="@+id/nav_favor"
+            android:title="Tin yêu thích" />
+
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Thể loại">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_TheThao"
+                    android:title="Thể Thao" />
+                <item
+                    android:id="@+id/nav_PhapLuat"
+                    android:title="Pháp Luật" />
+                <item
+                    android:id="@+id/nav_GiaoDuc"
+                    android:title="Giáo dục" />
+
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Thêm">
+        <menu>
+            <item
+                android:id="@+id/nav_set"
+                android:title="Cài đặt"/>
+            <item
+                android:id="@+id/nav_report"
+                android:title="Gửi phản hồi" />
+            <item
+                android:id="@+id/nav_report_mail"
+                android:title="Đơn phản hồi" />
+            <item
+                android:id="@+id/nav_write"
+                android:title="Đăng bài"
+                />
+            <item
+                android:id="@+id/nav_logout"
+                android:title="Đăng xuất" />
+
+        </menu>
+
+    </item>
+
+</menu>
